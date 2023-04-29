@@ -2,10 +2,6 @@
     .container{
     max-width: 736px;
     }
-    .section-team{
-        padding-top: 208px;
-        padding-bottom: 96px;
-    }
     .list-of-specialists {
       grid-template-columns: repeat(2, 1fr);
       }
@@ -26,10 +22,50 @@
         height: 40px;
       }
   }   
+  @media (min-width: 767px) and (max-width: 1199px) {
+    .mobile-menu-open, .text-icons{
+      display: none;
+    }
+   .email{
+    padding-top: 16px;
+    padding-bottom: 4px;}
+    
+    .phone{
+    padding-top: 4px;
+    padding-bottom: 16px;
+   }
+   }
+    .list{
+  display: block;
+}
+.section-team{
+  padding-top: 96px;
+}
+.header3{
+font-family: 'Roboto';
+font-weight: 700;
+font-size: 36px;
+line-height: 1.11;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+color: #2E2F42;
+}
+.text{
+font-family: 'Roboto';
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #434455;
+
+}
+
+
+  }
     .list-of-specialists {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-      grid-gap: 24px;
+      column-gap: 24px;
       }
       
       .photos {
