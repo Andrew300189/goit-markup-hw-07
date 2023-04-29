@@ -52,6 +52,13 @@
    .subscribe-footer p{
     margin-top: 72px;
    }
+   .portfolio{
+    padding-bottom: 96px;
+    padding-top: 64px;
+   }
+   .list-of-buttons{
+    margin-bottom: 64px;
+   }
    }
     .list{
   display: block;
