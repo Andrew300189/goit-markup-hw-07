@@ -6,7 +6,7 @@
         padding-top: 208px;
         padding-bottom: 96px;
     }
-   
+    
   }
   @media screen and (max-width: 767px) {
     .list-of-contacts, .email, .phone, .text-icons {
@@ -43,7 +43,40 @@
         letter-spacing: 0.02em;
         color: #434455;
       }
-
+      .footer-text-and-logo {
+        align-items: center;
+        flex-direction: column;
+        margin-right: auto;
+        margin-left: auto;
+      }
+      .subscribe-footer p{
+        display: flex;
+        justify-content: center;
+        margin-top: 72px;
+      }
+      .subscribe-footer{
+        width: 100%;
+      }
+      
+      .social-media-footer{
+        display: flex;
+        justify-content: center;
+        margin-top: 72px;
+      }
+      .logo-bottom {
+        text-align: center;
+      }
+      
+      .social-list-footer {
+        display: flex;
+        margin-top: 16px;
+      }
+      .footer-input-wrap {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 10px;
+      }
     }
   /* Section customers */
   .customers-icons-list {
@@ -58,9 +91,7 @@
     list-style: none;
     text-align: center;
   }
-  .social-icons-footer{
-    width: 100%;
-  }
+  
   .customer-icon-link {
     display: flex;
     height: 100%;
@@ -68,42 +99,12 @@
     justify-content: center;
   }
   /* Footer section */
-  .subscribe-footer p{
-    display: flex;
-    justify-content: center;
-    margin-top: 72px;
-  }
-  .subscribe-footer{
-    width: 100%;
-  }
   .footer-text-and-logo {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-right: auto;
-    margin-left: auto;
     padding-top: 96px;
     padding-bottom: 96px;
   }
-  .social-media-footer{
-    display: flex;
-    justify-content: center;
-    margin-top: 72px;
-  }
-  .logo-bottom {
-    text-align: center;
-  }
   
-  .social-list-footer {
-    display: flex;
-    margin-top: 16px;
-  }
-  .footer-input-wrap {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 10px;
-  }
   .footer-input{
     opacity: 0.3;
     border: 1px solid #FFFFFF;
@@ -114,5 +115,14 @@
   }
   .button-footer{
     margin-top: 16px;
+  }
+  .mobile-menu-open {
+    width: 32px;
+    height: 22px;
+    background-color: transparent;
+    border: none;
+    align-items: center;
+    padding-top: 24px;
+    padding-bottom: 24px;
   }
   

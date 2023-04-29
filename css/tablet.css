@@ -34,6 +34,22 @@
     padding-top: 4px;
     padding-bottom: 16px;
    }
+   .footer-text-and-logo{
+    display: flex;
+    flex-direction: column;
+    width: 552px;
+   }
+   .button-footer{
+    margin-top: 0;
+    margin-left: 24px;
+   }
+   .footer-input-wrap{
+    display: flex;
+    
+   }
+   .subscribe-footer p{
+    margin-top: 72px;
+   }
    }
     .list{
   display: block;
@@ -61,7 +77,7 @@ color: #434455;
 }
 
 
-  }
+  
     .list-of-specialists {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
