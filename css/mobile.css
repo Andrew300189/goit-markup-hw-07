@@ -7,10 +7,46 @@
         padding-bottom: 96px;
     }
    
-    
   }
+  @media screen and (max-width: 768px) {
+    .list-of-contacts, .email, .phone, .text-icons {
+    display: none;
+    }
+    .list-of-texts{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      margin-right: 0;
+      }
+      .list-of-texts li {
+        margin-bottom: 72px;
+      }
+      
+      .list-of-texts li:last-child {
+        margin-bottom: 96px;
+      }
+      .header3{
+        font-family: 'Roboto';
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.11;
+        text-align: center;
+        letter-spacing: 0.02em;
+        text-transform: capitalize;
+        color: #2E2F42;
+      }
+      .text{
+        font-family: 'Roboto';
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #434455;
+      }
+
+    }
   /* Section customers */
-  .container .customers-icons-list-grid {
+  .customers-icons-list {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(3, auto);
@@ -18,7 +54,6 @@
     column-gap: 16px;
   }
 
-  
   .customer-icon {
     list-style: none;
     text-align: center;
@@ -27,8 +62,10 @@
     width: 100%;
   }
   .customer-icon-link {
-    display: block;
+    display: flex;
     height: 100%;
+    align-items: center;
+    justify-content: center;
   }
   /* Footer section */
   .subscribe-footer p{
@@ -78,3 +115,4 @@
   .button-footer{
     margin-top: 16px;
   }
+  

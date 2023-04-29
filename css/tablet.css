@@ -6,11 +6,24 @@
         padding-top: 208px;
         padding-bottom: 96px;
     }
-    
-  }
-  @media screen and (min-width: 767px) {
     .list-of-specialists {
       grid-template-columns: repeat(2, 1fr);
+      }
+      .footer-logo-and-icons-wrap{
+        display: flex;
+        
+      }
+      .social-media-footer, .logo-bottom{
+        margin-top: 0;
+        display: inline-block;
+      }
+      .social-icons-footer{
+        margin-left: 24px;
+      }
+     
+      .footer-input{
+        width: 264px;
+        height: 40px;
       }
   }   
     .list-of-specialists {
@@ -72,3 +85,4 @@
         }
       
       /* Footer section */
+      
