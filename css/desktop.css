@@ -152,5 +152,12 @@ line-height: 24px;
   column-gap: 24px;
   row-gap: 48px;
 }
+.portfolio {
+  padding-top: 100px;
+}
+.section-customers{
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
 }
   

@@ -77,7 +77,94 @@
           </ul>
         </address>
       </div>
-    </header>
+      <div class="mobile-menu js-menu-container" id="mobile-menu">
+        <div class="container-mobile mobile-menu-container">
+          <button class="mobile-menu-close-button js-close-menu">
+            <svg class="mobile-menu-close-icon" width="8" height="8">
+              <use href="./images/symbol-defs.svg#icon-close-black"></use>
+            </svg>
+          </button>
+          <ul class="list-of-contacts-mobile" style="list-style-type:none;">
+            <li class="list-of-contacts-item-mobile">
+              <a
+                class="contacts-mobile active"
+                href="./index.html"
+                style="text-decoration: none"
+                >Studio</a
+              >
+            </li>
+            <li class="list-of-contacts-item-mobile">
+              <a
+                class="contacts-mobile"
+                href="./portfolio.html"
+                style="text-decoration: none"
+                >Portfolio</a
+              >
+            </li>
+            <li class="list-of-contacts-item-mobile">
+              <a class="contacts-mobile" href="" style="text-decoration: none"
+                >Contacts</a
+              >
+            </li>
+          </ul>
+         <div class="lists-wrap-mobile">
+          <ul class="list-mobile" style="list-style-type:none;">
+            <li class="email-and-phone-mobile">
+              <a
+                class="phone-mobile"
+                href="tel:+110001111111"
+                style="text-decoration: none"
+                >+11 (000) 111-11-11</a
+              >
+            </li>
+            <li class="email-and-phone-mobile">
+              <a
+                class="email-mobile"
+                href="mailto:info@devstudio.com"
+                style="text-decoration: none"
+                >info@devstudio.com</a
+              >
+            </li>
+          </ul>
+          <ul class="team-social-list-mobile" style="list-style-type:none;">
+            <li class="team-social-item-mobile">
+              <a href="" class="team-social-link-mobile">
+                <svg class="team-social-icon-mobile" width="24" height="24">
+                  <use
+                    href="./images/symbol-defs.svg#icon-instagram"
+                  ></use>
+                </svg>
+              </a>
+            </li>
+            <li class="team-social-item-mobile">
+              <a href="" class="team-social-link-mobile">
+                <svg class="team-social-icon-mobile" width="24" height="24">
+                  <use
+                    href="./images/symbol-defs.svg#icon-twitter"
+                  ></use></svg
+              ></a>
+            </li>
+            <li class="team-social-item-mobile">
+              <a href="" class="team-social-link-mobile">
+                <svg class="team-social-icon-mobile" width="24" height="24">
+                  <use
+                    href="./images/symbol-defs.svg#icon-facebook"
+                  ></use>
+                </svg>
+              </a>
+            </li>
+            <li class="team-social-item-mobile">
+              <a href="" class="team-social-link-mobile">
+                <svg class="team-social-icon-mobile" width="24" height="24">
+                  <use
+                    href="./images/symbol-defs.svg#icon-linkedin"
+                  ></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </header>
     <!--Hero-->
     <main>
       <section class="portfolio">
@@ -700,6 +787,12 @@
         </form>
       </div>
     </div>
-    <script scr="./js/mobile-menu.js"></script>
+    <script
+      defer
+      src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+      integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+      crossorigin="anonymous"
+    ></script>
+    <script defer src="./js/mobile-menu.js"></script>
   </body>
 </html>
