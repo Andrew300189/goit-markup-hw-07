@@ -1,6 +1,6 @@
 @media screen and (min-width: 1200px){
     .container{
-    width: 1160px;
+      max-width: 1158px;
     }
     .section-team{
     padding-top: 120px;
@@ -21,5 +21,136 @@
       .mobile-menu-open{
         display: none;
       }
+      .container {
+      max-width: 1158px;
+      
   }
+  .list-of-contacts a.active {
+    color: var(--color-ocean);
+  }
+  .list-of-texts:not(:last-child) {
+  margin-right: 24px;
+}
+.list-of-texts li {
+  flex-basis: calc((100% - 72px) / 4);
+}
+.list-of-specialists {
+  display: flex;
+  
+}
+.text-strategy,
+.text-punctuality,
+.text-diligence,
+.text-technologies {
+  padding: 0;
+  margin-right: 24px;
+}
+
+.customers-icons-list {
+  display: flex;
+  justify-content: center;
+  padding: 0px;
+  gap: 24px;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+.list-of-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  list-style-type: none;
+  margin-top: 0;
+  margin-bottom: 72px;
+  padding-top: 0;
+  padding-left: 0;
+}
+.header1 {
+  width: 496px;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--color-white);
+}
+.page-header .container {
+  display: flex;
+}
+.email, .phone{
+  display: flex;
+}
+footer {
+  background-color: var(--color-navyblue);
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+.social-list-footer {
+  padding: 0;
+  margin: 0;
+}
+.social-icons-footer {
+  padding: 0;
+  margin-left: 120px;
+}
+.footer-input{
+margin-right: 24px;
+padding-left: 16px;
+}
+.subscribe-footer{
+  margin-left: 80px;
+  }
+.header3{
+  font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+}
+.list{
+  display: flex;
+}
+.footer-text-and-logo {
+  margin-right: 0;
+  display: flex;
+}
+.social-list-footer {
+  padding: 0;
+  margin: 0;
+}
+.social-icons-footer {
+  padding: 0;
+  margin-left: 120px;
+}
+.social-list-footer {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  align-items: center;
+  padding-left: 0;
+  margin-left: 0;
+  margin-top: 16px;
+}
+.button-footer{
+  margin-top: 0;
+}
+.text{
+  font-weight: 400;
+  gap: 8px;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--color-slate);
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.list-of-images-portfolio {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
+}
+}
   
