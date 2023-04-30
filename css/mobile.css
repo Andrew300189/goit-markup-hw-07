@@ -205,7 +205,7 @@
   .mobile-menu-container{
     position: relative;
     height: 100%;
-    padding: 80px 0 16px 40px;
+    padding: 80px 40px 40px 35px;
   }
   .container-mobile{
     display: flex;
@@ -282,7 +282,8 @@
      {
        display: flex;
        margin: 0;
-       padding: 48px 0 40px 0;
+       padding-left: 0;
+       padding-top: 48px;
      }
      
      .team-social-list-mobile .team-social-item-mobile:not(:last-child){

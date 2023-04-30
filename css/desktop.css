@@ -18,5 +18,8 @@
         padding: 0;
         margin-left: 120px;
       }
+      .mobile-menu-open{
+        display: none;
+      }
   }
   
