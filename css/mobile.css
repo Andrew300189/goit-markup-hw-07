@@ -130,7 +130,9 @@
       .list-of-contacts-mobile li:nth-child(3) .contacts-mobile{
         color:#404BBF;
       }
-      
+      .email-and-phone-mobile .phone-mobile{
+        color: #4D5AE5;
+      }
     }
     
   /* Section customers */
