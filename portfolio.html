@@ -51,6 +51,11 @@
             </li>
           </ul>
         </nav>
+        <button class="mobile-menu-open" type="button">
+          <svg class="mobile-menu-open-icon" width="32" height="22">
+            <use href="./images/icons.svg#icon-mobile-menu"></use>
+          </svg>
+        </button>
         <address>
           <ul class="list">
             <li class="email-and-phone">
@@ -78,6 +83,7 @@
       <section class="portfolio">
         <div class="container container-sm">
           <h1 class="visually-hidden">Portfolio</h1>
+        <div class="list-of-buttons-wrap">
           <ul class="list-of-buttons">
             <li><button class="button" type="button">All</button></li>
             <li><button class="button" type="button">Web Site</button></li>
@@ -85,6 +91,7 @@
             <li><button class="button" type="button">Design</button></li>
             <li><button class="button" type="button">Marketing</button></li>
           </ul>
+        </div>
           <ul class="list-of-images-portfolio">
             <li class="photo">
               <a href="" class="portfolio-photos-link">
@@ -270,8 +277,9 @@
       </section>
     </main>
     <footer>
-      <div class="container container-sm">
+      <div class="container">
         <div class="footer-text-and-logo">
+          <div class="footer-logo-and-icons-wrap">          
           <div>
             <a
               class="logo-bottom"
@@ -318,6 +326,7 @@
               </li>
             </ul>
           </div>
+        </div>
           <div class="subscribe-footer">
             <p>Subscribe</p>
             <form class="footer-input-wrap">
@@ -339,5 +348,95 @@
         </div>
       </div>
     </footer>
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <button type="button" data-modal-close class="modal-close">
+          <svg class="icon-close-black">
+            <use href="./images/symbol-defs.svg#icon-close-black"></use>
+          </svg>
+        </button>
+        <p class="modal-title">Leave your contacts and we will call you back</p>
+        <form action="#" class="modal-form">
+          <div class="form-group">
+            <label for="username">
+              Name
+            </label>
+              <div class="input-wrap">
+                <input
+                  type="text"
+                  name="username"
+                  id="username"
+                  required
+                />
+                <svg class="form-icon">
+                  <use href="./images/icons.svg#icon-user"></use>
+                </svg>
+              </div>
+            </div>
+          <div class="form-group">
+            <label for="phone">
+              Phone
+            </label>
+              <div class="input-wrap">
+                <input
+                  type="tel"
+                  name="phone"
+                  id="phone"
+                  required
+                />
+                <svg class="form-icon">
+                  <use href="./images/icons.svg#icon-phone"></use>
+                </svg>
+             </div>
+           </div>
+          <div class="form-group">
+            <label for="email">
+              Email
+            </label>
+              <div class="input-wrap">
+                <input 
+                 type="email" 
+                 name="email"
+                 id="email"
+                 required />
+                <svg class="form-icon">
+                  <use href="./images/icons.svg#icon-letter"></use>
+                </svg>
+              </div>
+          </div>
+          <div class="textarea-comment">
+            <label for="feedback">
+              Comment
+              </label>
+              <textarea
+                id="feedback"
+                class="text-input"
+                name="feedback"
+                placeholder="Text input"
+              ></textarea>
+          </div>
+        <div class="form-checkbox">
+          <input
+            type="checkbox"
+            name="policy"
+            id="policy"
+            class="checkbox-input visually-hidden"
+          />
+          <label for="policy" class="form-label-checkbox">
+            <span class="form-checkbox-icon-span">
+              <svg class="form-checkbox-icon" width="10" height="8">
+                <use href="./images/icons.svg#icon-check"></use>
+              </svg>
+            </span>
+            <span class="text-policy" style="margin-right: 4px;">I accept the terms and conditions of the</span>      
+            <a href="#">Privacy Policy</a>
+          </label>
+         </div>
+         <button type="submit" class="form-button">Send</button>
+         <script src="./js/modal.js"></script>
+        </form>
+      </div>
+    </div>
+    <script scr="./js/mobile-menu.js"></script>
   </body>
 </html>

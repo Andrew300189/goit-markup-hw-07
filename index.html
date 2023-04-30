@@ -77,8 +77,8 @@
           </ul>
         </address>
       </div>
-      <!-- <div class="mobile-menu">
-        <div class="container mobile-menu-container">
+      <div class="mobile-menu">
+        <div class="container-mobile mobile-menu-container">
           <button class="mobile-menu-close-button">
             <svg class="mobile-menu-close-icon" width="8" height="8">
               <use href="./images/symbol-defs.svg#icon-close-black"></use>
@@ -126,36 +126,36 @@
               >
             </li>
           </ul>
-          <ul class="team-social-list" style="list-style-type:none;">
-            <li class="team-social-item">
-              <a href="" class="team-social-link">
-                <svg class="team-social-icon" width="24" height="24">
+          <ul class="team-social-list-mobile" style="list-style-type:none;">
+            <li class="team-social-item-mobile">
+              <a href="" class="team-social-link-mobile">
+                <svg class="team-social-icon-mobile" width="24" height="24">
                   <use
                     href="./images/symbol-defs.svg#icon-instagram"
                   ></use>
                 </svg>
               </a>
             </li>
-            <li class="team-social-item">
-              <a href="" class="team-social-link">
-                <svg class="team-social-icon" width="24" height="24">
+            <li class="team-social-item-mobile">
+              <a href="" class="team-social-link-mobile">
+                <svg class="team-social-icon-mobile" width="24" height="24">
                   <use
                     href="./images/symbol-defs.svg#icon-twitter"
                   ></use></svg
               ></a>
             </li>
-            <li class="team-social-item">
-              <a href="" class="team-social-link">
-                <svg class="team-social-icon" width="24" height="24">
+            <li class="team-social-item-mobile">
+              <a href="" class="team-social-link-mobile">
+                <svg class="team-social-icon-mobile" width="24" height="24">
                   <use
                     href="./images/symbol-defs.svg#icon-facebook"
                   ></use>
                 </svg>
               </a>
             </li>
-            <li class="team-social-item">
-              <a href="" class="team-social-link">
-                <svg class="team-social-icon" width="24" height="24">
+            <li class="team-social-item-mobile">
+              <a href="" class="team-social-link-mobile">
+                <svg class="team-social-icon-mobile" width="24" height="24">
                   <use
                     href="./images/symbol-defs.svg#icon-linkedin"
                   ></use>
@@ -164,10 +164,10 @@
             </li>
           </ul>
         </div>
-      </div> -->
+      </div>
     </header>
     <!--Hero-->
-    <!-- <main>
+    <main>
       <section class="top-section">
         <div class="container">
           <h1 class="header1">Effective Solutions for Your Business</h1>
@@ -175,7 +175,7 @@
             Order Service
           </button>
         </div>
-      </section> -->
+      </section>
       <!--/Hero-->
       <!--Section-->
       <section class="section-list-of-texts">
@@ -235,30 +235,63 @@
       </section>
       <!--/Section 2-->
       <!--Section 3-->
-      <!-- <section class="section-what-are-we-doing">
+      <section class="section-what-are-we-doing">
         <div class="container">
           <h2 class="header-what-we-are-doing">What are we doing</h2>
           <ul class="list-of-rectangles">
             <li class="rectangles">
-              <img src="./images/Rectangle1.jpg" alt="Monitor" width="360" />
+              <picture>
+                <source 
+                srcset="./images/Rectangle1-desktop.webp 1x, ./images/Rectangle1-desktop@2x.webp 2x"
+                media="(min-width: 1200px)"
+                type="image/webp"
+                />
+                <source 
+                srcset="./images/Rectangle1-desktop.jpg 1x, ./images/Rectangle1-desktop@2x.jpg 2x"
+                media="(min-width: 1200px)"
+                />
+                <img src="./images/Rectangle1-desktop.jpg" alt="Monitor" width="360" />
+              </picture>
             </li>
             <li class="rectangles">
+              <picture>
+                <source 
+                srcset="./images/Rectangle2-desktop.webp 1x, ./images/Rectangle2-desktop@2x.webp 2x"
+                media="(min-width: 1200px)"
+                type="image/webp"
+                />
+                <source 
+                srcset="./images/Rectangle2-desktop.jpg 1x, ./images/Rectangle2-desktop@2x.jpg 2x"
+                media="(min-width: 1200px)"
+                />
               <img
-                src="./images/Rectangle2.jpg"
+                src="./images/Rectangle2-desktop.jpg"
                 alt="Smartphones"
                 width="360"
               />
+              </picture>
             </li>
             <li class="rectangles">
+              <picture>
+                <source 
+                srcset="./images/Rectangle3-desktop.webp 1x, ./images/Rectangle3-desktop@2x.webp 2x"
+                media="(min-width: 1200px)"
+                type="image/webp"
+                />
+                <source 
+                srcset="./images/Rectangle3-desktop.jpg 1x, ./images/Rectangle3-desktop@2x.jpg 2x"
+                media="(min-width: 1200px)"
+                />
               <img
-                src="./images/Rectangle3.jpg"
+                src="./images/Rectangle3-desktop.jpg"
                 alt="Smartphone in a hand"
                 width="360"
               />
+              </picture>
             </li>
           </ul>
         </div>
-      </section> -->
+      </section>
       <!--/Section 3-->
       <!--Section 4-->
       <section class="section-team">
@@ -266,13 +299,42 @@
           <h2 class="header2">Our Team</h2>
           <ul class="list-of-specialists">
             <li class="photos">
+              <picture>
+                <source 
+                srcset="./images/Mark-desktop.webp 1x, ./images/Mark-desktop@2x.webp 2x"
+                media="(min-width: 1200px)"
+                type="image/webp"
+                />
+                <source 
+                srcset="./images/Mark-desktop.jpg 1x, ./images/Mark-desktop@2x.jpg 2x"
+                media="(min-width: 1200px)"
+                />
+                <source 
+                srcset="./images/Mark-tablet.webp 1x, ./images/Mark-tablet@2x.webp 2x"
+                media="(min-width: 768px)"
+                type="image/webp"
+                />
+                <source 
+                srcset="./images/Mark-tablet.jpg 1x, ./images/Mark-tablet@2x.jpg 2x"
+                media="(min-width: 768px)"
+                />
+                <source 
+                srcset="./images/Mark-mobile.webp 1x, ./images/Mark-mobile@2x.webp 2x"
+                media="(max-width: 767px)"
+                type="image/webp"
+                />
+                <source 
+                srcset="./images/Mark-mobile.jpg 1x, ./images/Mark-mobile@2x.jpg 2x"
+                media="(max-width: 767px)"
+                />
               <img
                 class="photo-Mark"
-                src="./images/Mark.jpg"
+                src="./images/Mark-desktop.jpg"
                 alt="Product designer Mark Guerrero"
                 width="264"
                 height="260"
               />
+              </picture>
               <div class="position-names-paddings">
                 <h3 class="header-Mark">Mark Guerrero</h3>
                 <p class="position-names">Product Designer</p>
@@ -316,13 +378,42 @@
               </div>
             </li>
             <li class="photos">
+              <picture>
+                <source 
+                srcset="./images/Tom-desktop.webp 1x, ./images/Tom-desktop@2x.webp 2x"
+                media="(min-width: 1200px)"
+                type="image/webp"
+                />
+                <source 
+                srcset="./images/Tom-desktop.jpg 1x, ./images/Tom-desktop@2x.jpg 2x"
+                media="(min-width: 1200px)"
+                />
+                <source 
+                srcset="./images/Tom-tablet.webp 1x, ./images/Tom-tablet@2x.webp 2x"
+                media="(min-width: 768px)"
+                type="image/webp"
+                />
+                <source 
+                srcset="./images/Tom-tablet.jpg 1x, ./images/Tom-tablet@2x.jpg 2x"
+                media="(min-width: 768px)"
+                />
+                <source 
+                srcset="./images/Tom-mobile.webp 1x, ./images/Tom-mobile@2x.webp 2x"
+                media="(max-width: 767px)"
+                type="image/webp"
+                />
+                <source 
+                srcset="./images/Tom-mobile.jpg 1x, ./images/Tom-mobile@2x.jpg 2x"
+                media="(max-width: 767px)"
+                />
               <img
                 class="photo-Tom"
-                src="./images/Tom.jpg"
+                src="./images/Tom-desktop.jpg"
                 alt="Frontend developer Tom Ford"
                 width="264"
                 height="260"
               />
+              </picture>
               <div class="position-names-paddings">
                 <h3 class="header-Tom">Tom Ford</h3>
                 <p class="position-names">Frontend Developer</p>
@@ -366,13 +457,42 @@
               </div>
             </li>
             <li class="photos">
+              <picture>
+                <source 
+                srcset="./images/Camila-desktop.webp 1x, ./images/Camila-desktop@2x.webp 2x"
+                media="(min-width: 1200px)"
+                type="image/webp"
+                />
+                <source 
+                srcset="./images/Camila-desktop.jpg 1x, ./images/Camila-desktop@2x.jpg 2x"
+                media="(min-width: 1200px)"
+                />
+                <source 
+                srcset="./images/Camila-tablet.webp 1x, ./images/Camila-tablet@2x.webp 2x"
+                media="(min-width: 768px)"
+                type="image/webp"
+                />
+                <source 
+                srcset="./images/Camila-tablet.jpg 1x, ./images/Camila-tablet@2x.jpg 2x"
+                media="(min-width: 768px)"
+                />
+                <source 
+                srcset="./images/Camila-mobile.webp 1x, ./images/Camila-mobile@2x.webp 2x"
+                media="(max-width: 767px)"
+                type="image/webp"
+                />
+                <source 
+                srcset="./images/Camila-mobile.jpg 1x, ./images/Camila-mobile@2x.jpg 2x"
+                media="(max-width: 767px)"
+                />
               <img
                 class="photo-Camila"
-                src="./images/Camila.jpg"
+                src="./images/Camila-desktop.jpg"
                 alt="Responsible for marketing Camila Garcia"
                 width="264"
                 height="260"
               />
+              </picture>
               <div class="position-names-paddings">
                 <h3 class="header-Camila">Camila Garcia</h3>
                 <p class="position-names">Marketing</p>
@@ -416,6 +536,34 @@
               </div>
             </li>
             <li class="photos">
+              <picture>
+                <source 
+                srcset="./images/Daniel-desktop.webp 1x, ./images/Daniel-desktop@2x.webp 2x"
+                media="(min-width: 1200px)"
+                type="image/webp"
+                />
+                <source 
+                srcset="./images/Daniel-desktop.jpg 1x, ./images/Daniel-desktop@2x.jpg 2x"
+                media="(min-width: 1200px)"
+                />
+                <source 
+                srcset="./images/Daniel-tablet.webp 1x, ./images/Daniel-tablet@2x.webp 2x"
+                media="(min-width: 768px)"
+                type="image/webp"
+                />
+                <source 
+                srcset="./images/Daniel-tablet.jpg 1x, ./images/Daniel-tablet@2x.jpg 2x"
+                media="(min-width: 768px)"
+                />
+                <source 
+                srcset="./images/Daniel-mobile.webp 1x, ./images/Daniel-mobile@2x.webp 2x"
+                media="(max-width: 767px)"
+                type="image/webp"
+                />
+                <source 
+                srcset="./images/Daniel-mobile.jpg 1x, ./images/Daniel-mobile@2x.jpg 2x"
+                media="(max-width: 767px)"
+                />
               <img
                 class="photo-Daniel"
                 src="./images/Daniel.jpg"
@@ -423,6 +571,7 @@
                 width="264"
                 height="260"
               />
+              </picture>
               <div class="position-names-paddings">
                 <h3 class="header-Daniel">Daniel Wilson</h3>
                 <p class="position-names">UI Designer</p>
