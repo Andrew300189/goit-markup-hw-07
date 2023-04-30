@@ -56,9 +56,9 @@ body {
   bottom: -1px;
   left: 0px;
 }
-.list-of-contacts a.active {
+/* .list-of-contacts a.active {
   color: var(--color-ocean);
-}
+} */
 .navigation-items {
   display: flex;
   align-items: center;

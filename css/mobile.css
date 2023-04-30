@@ -8,6 +8,7 @@
     }
     
   }
+  
   @media screen and (max-width: 767px) {
     .list-of-contacts, .email, .phone, .text-icons, .section-what-are-we-doing {
     display: none;
@@ -25,6 +26,7 @@
       .list-of-texts li:last-child {
         margin-bottom: 96px;
       }
+      
       .header3{
         font-family: 'Roboto';
         font-weight: 700;
@@ -96,13 +98,13 @@
       rgba(46, 47, 66, 0.7)
     ),
     url(../images/people-office1-mobile.jpg);
-  background-color: var(--color-navyblue);
-  max-width: 100%;
-  background-repeat: no-repeat;
-  background-position: center;
-  text-align: center;
-  padding-top: 112px;
-    padding-bottom: 112px;
+     background-color: var(--color-navyblue);
+     max-width: 100%;
+     background-repeat: no-repeat;
+     background-position: center;
+     text-align: center;
+     padding-top: 112px;
+     padding-bottom: 112px;
       }
       .header1{
         font-weight: 700;
@@ -125,11 +127,12 @@
       .contacts-mobile{
         color:#2E2F42;
       }
+      .list-of-contacts-mobile li:nth-child(3) .contacts-mobile{
+        color:#404BBF;
+      }
       
     }
-    .contacts-mobile:focus {
-      color: #404BBF;
-    }
+    
   /* Section customers */
   .customers-icons-list {
     display: flex;
@@ -193,14 +196,18 @@
   color: var(--color-navyblue);
   }
   .mobile-menu{
-    
     position: fixed;
     width: 100%;
     height: 100%;
-    z-index: 1000;
+    z-index: 999;
     top: 0;
     left: 0;
     background-color: var(--color-white);
+    /* transform: translateX(100%); */
+  }
+  .mobile-menu .is-open{
+    transform: translateX(0);
+
   }
   .mobile-menu-container{
     position: relative;
@@ -213,7 +220,6 @@
     align-items: start;
     justify-content: space-between;
     width: 100%;
-
    }
   .mobile-menu-close-button{
     position: absolute;
@@ -289,8 +295,3 @@
      .team-social-list-mobile .team-social-item-mobile:not(:last-child){
        margin-right: 56px;
      }
-     
-     
-     
-                         
-  
