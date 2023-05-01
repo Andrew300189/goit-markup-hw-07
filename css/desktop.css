@@ -6,9 +6,7 @@
     padding-top: 120px;
     padding-bottom: 120px;
     }
-    .section-team .photos:not(:last-child) {
-        margin-right: 24px;
-      }
+    
       footer {
         background-color: var(--color-navyblue);
         padding-top: 120px;
@@ -81,9 +79,7 @@
 .page-header .container {
   display: flex;
 }
-.email, .phone{
-  display: flex;
-}
+
 footer {
   background-color: var(--color-navyblue);
   padding-top: 120px;
@@ -110,10 +106,6 @@ font-size: 20px;
 line-height: 24px;
 }
 .list{
-  display: flex;
-}
-.footer-text-and-logo {
-  margin-right: 0;
   display: flex;
 }
 .social-list-footer {

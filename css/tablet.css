@@ -1,13 +1,11 @@
 @media screen and (min-width: 767px){
     .container{
-    max-width: 736px;
-    }
-    .list-of-specialists, .list-of-images-portfolio {
-      grid-template-columns: repeat(2, 1fr);
-      }
+    max-width: 768px;
+  }
+
       .footer-logo-and-icons-wrap{
         display: flex;
-        
+        margin-bottom: 72px;
       }
       .social-media-footer, .logo-bottom{
         margin-top: 0;
@@ -21,6 +19,7 @@
         width: 264px;
         height: 40px;
       }
+      
   }   
   @media (min-width: 767px) and (max-width: 1199px) {
     .mobile-menu-open, .text-icons, .section-what-are-we-doing{
@@ -28,18 +27,24 @@
     }
    .email{
     padding-top: 16px;
-    padding-bottom: 4px;}
+    padding-bottom: 6px;
+    font-size: 12px;
+  }
     
     .phone{
-    padding-top: 4px;
+    padding-top: 6px;
     padding-bottom: 16px;
+    font-size: 12px;
    }
    .footer-text-and-logo{
     display: flex;
-    flex-direction: column;
-    width: 552px;
-    margin-left: 0;
-    justify-content: center;
+    flex-wrap: wrap;
+    width: 582px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: auto;
+    align-items: center;
+    
    }
    .button-footer{
     margin-top: 0;
@@ -48,9 +53,6 @@
    .footer-input-wrap{
     display: flex;
     
-   }
-   .subscribe-footer p{
-    margin-top: 72px;
    }
    .portfolio{
     padding-bottom: 96px;
@@ -74,8 +76,10 @@
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 72px;
+  }
+  .section-list-of-texts{
+    padding-bottom: 96px;
     padding-top: 96px;
-    padding-bottom: 115px;
   }
   
   .text-strategy,
@@ -84,9 +88,6 @@
   .text-technoligies {
     flex-basis: calc(50% - 12px);
     
-  }
-  .section-list-of-texts{
-    padding-top: 0;
   }
   .top-section{
     background-image: linear-gradient(
@@ -103,17 +104,29 @@
   }
   .header1{
     font-family: 'Roboto';
-font-weight: 700;
-font-size: 56px;
-line-height: 1.07;
-text-align: center;
-letter-spacing: 0.02em;
-text-transform: capitalize;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
   }
   .button-1{
     margin-top: 36px;
   }
-
+  footer{
+    padding-top: 96px;
+    padding-bottom: 96px;
+  }
+  .contacts:focus,
+  .email:focus,
+  .phone:focus,
+  .active {
+    color: #404BBF;
+  }
+  .social-list-footer{
+    margin-bottom: 0;
+  }
    }
     .list{
   display: block;
@@ -139,11 +152,7 @@ letter-spacing: 0.02em;
 color: #434455;
 
 }
-      .photos {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      }
+     
       
       .photos img {
       width: 100%;
@@ -154,13 +163,10 @@ color: #434455;
         padding-bottom: 96px;
       }
       /* Customers icons section */
-      
-        
-        
-        
         .list-of-specialists 
         {
-        display: grid;
+        display: flex;
+        flex-wrap: wrap;
         column-gap: 24px;
         row-gap: 64px;
         }
@@ -179,7 +185,7 @@ color: #434455;
         }
         /* Customers section */
         .section-customers{
-        padding-top: 77px;
+        padding-top: 96px;
         padding-bottom: 96px;
         }
         
