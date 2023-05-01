@@ -1,6 +1,7 @@
 @media screen and (min-width: 767px){
     .container{
     max-width: 768px;
+    
   }
 
       .footer-logo-and-icons-wrap{
@@ -37,15 +38,12 @@
     font-size: 12px;
    }
    .footer-text-and-logo{
-    display: flex;
-    flex-wrap: wrap;
+    display: block;
     width: 582px;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin: auto;
-    align-items: center;
-    
+    margin-right: auto;
+    margin-left: auto;
    }
+   
    .button-footer{
     margin-top: 0;
     margin-left: 24px;
@@ -127,6 +125,7 @@
   .social-list-footer{
     margin-bottom: 0;
   }
+  
    }
     .list{
   display: block;
@@ -150,9 +149,8 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #434455;
-
 }
-     
+  
       
       .photos img {
       width: 100%;
