@@ -144,7 +144,16 @@
         column-gap: 16px;
         justify-content: space-around; 
       }
-    }
+      .backdrop{
+        display: flex;
+        flex-wrap: wrap;
+      }
+      .modal{
+        width: 90%;
+        max-width: 408px;
+      }
+     }
+      
     
   /* Section customers */
   
@@ -284,14 +293,10 @@
      .team-social-list-mobile
      {
        display: flex;
-       flex-wrap: wrap;
-       flex-direction: row;
+       margin: 0;
        padding-left: 0;
-       
-            
-     }
-     
-     
-     .team-social-list-mobile .team-social-item-mobile:not(:last-child){
-       margin-right: 56px;
+       flex-wrap: wrap;
+       flex-direction: flex-start;
+       row-gap: 16px;
+       column-gap: 54px;
      }
