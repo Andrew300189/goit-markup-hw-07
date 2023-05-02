@@ -85,6 +85,12 @@ footer {
   padding-top: 120px;
   padding-bottom: 120px;
 }
+.footer-logo-and-icons-wrap{
+  margin-bottom: 0;
+}
+.subscribe-footer{
+  margin-left: auto;
+}
 .social-list-footer {
   padding: 0;
   margin: 0;
@@ -97,9 +103,7 @@ footer {
 margin-right: 24px;
 padding-left: 16px;
 }
-.subscribe-footer{
-  margin-left: 80px;
-  }
+
 .header3{
   font-weight: 500;
 font-size: 20px;
@@ -150,6 +154,9 @@ line-height: 24px;
 .section-customers{
   padding-top: 120px;
   padding-bottom: 120px;
+}
+.customer-icon{
+  width: 168px;
 }
 }
   

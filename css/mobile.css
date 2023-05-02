@@ -51,9 +51,6 @@
         width: 100%;
       }
       
-      .social-media-footer{
-        
-      }
       .logo-bottom {
         text-align: center;
       }
@@ -73,12 +70,14 @@
         flex-direction: flex-start;
         row-gap: 16px;
         column-gap: 24px;
+        margin-top: 0;
+        margin-bottom: 0;
       }
       .list-of-buttons-wrap{
-        margin: 48px 0;
+        margin-bottom: 48px;
       }
       .portfolio{
-        padding-top: 0;
+        padding-top: 48px;
         padding-bottom: 48px;
       }
       .top-section{
@@ -106,6 +105,9 @@
       }
       .button-1{
         margin-top: 72px;
+      }
+      .button{
+        padding: 8px 16px;
       }
       img{
         display: block;
@@ -138,9 +140,11 @@
       .customer-icon-link{
         width: 190px;
       }
+
       .customers-icons-list {
         display: flex;
         flex-wrap: wrap;
+        width: 100%;
         row-gap: 72px;
         column-gap: 16px;
         justify-content: space-around; 
@@ -151,13 +155,19 @@
       }
       .modal{
         width: 90%;
-        max-width: 408px;
+        max-width: 392px;
       }
-     }
-      
-    
-  /* Section customers */
-  
+      .logo-top{
+        margin-right: 0;
+      }
+      .portfolio-text-paddings{
+        margin-right: 0;
+      }
+      .list-of-images-portfolio{
+        display: flex;
+        flex-wrap: wrap;
+      }
+    }
 
   .customer-icon {
     list-style: none;
@@ -300,4 +310,13 @@
        flex-direction: flex-start;
        row-gap: 16px;
        column-gap: 54px;
+     }
+     @media screen and (max-width: 320px){
+      .top-section{
+        display: flex;
+        flex-wrap: wrap;
+      }
+      .header1{
+        width: 100%;
+      }
      }
